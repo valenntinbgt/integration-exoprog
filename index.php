@@ -1,4 +1,3 @@
-<!-- page d'index -->
 <!DOCTYPE html> 
 <html lang="fr"> 
 	<head> 
