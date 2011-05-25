@@ -1,0 +1,213 @@
+﻿body 
+{
+    padding:0px;
+    margin:0px;
+    font-family: Tahoma;
+}
+
+#header 
+{
+	color: #8f9da1;
+	font-style: normal;
+	font-weight: normal;
+	height: 141px;
+	background-repeat: repeat-x;
+	background-image: url(img/wal.jpg);
+	font-size: 20px;
+	width:100%;
+    overflow: hidden;
+}
+
+#menu
+{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+#menu a
+{
+	color: #b0b7b5;
+	text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#logo 
+{
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:119px;
+    height:75px;
+    background:url(img/logo.png) center no-repeat;
+}
+
+#connexion 
+{
+    position: float;
+    float: right;
+}
+
+#input_submit
+{
+    font-size: 0.8em;
+    position: absolute;
+    top: 27px;
+    right: 150px;
+    color : white;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    text-decoration: none;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+    background : #00d700;
+    background : -webkit-gradient(linear, left top, left bottom, from(#00d700), to(#038003));
+    background : -moz-linear-gradient(top, #00d700, #00d700); 
+    
+    -pie-background: linear-gradient(#00d700, #00d700); /*PIE*/
+    behavior: url(design/PIE.htc);
+}
+
+#input_pseudo
+{
+    position: absolute;
+    top: 27px;
+    right: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;    
+    border: none;
+    height: 20px;
+    behavior: url(design/css3pie/PIE.htc);
+}
+
+#input_password
+{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+    border: none;
+    height: 20px;
+    behavior: url(design/css3pie/PIE.htc);
+}
+
+#input_inscription
+{
+    font-size: 0.8em;
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    color : white;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    text-decoration: none;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+    background : #00a2f6;
+    background : -webkit-gradient(linear, left top, left bottom, from(#00a2f6), to(#015297));
+    background : -moz-linear-gradient(top, #00a2f6, #015297);  
+    
+    behavior: url(design/css3pie/PIE.htc);
+}
+
+#menu_droite
+{
+    float: left;
+	margin-top : 15px;
+    margin-left: 5px;
+	list-style-image: none;
+	list-style-position: inside;
+	width: 200px;
+	height:300px;
+	border: 1px solid black;
+	padding-left: 10px;
+}
+
+#menu_droite h5
+{
+    margin-left: 50px;
+}
+
+#menu_droite ul
+{
+	list-style:none;
+	list-style-position:inside;
+	padding-top:10px;
+	padding-left: 0px;
+	color:#34393E;
+	line-height: 20px;
+}
+
+#menu_droite ul a
+{
+	text-decoration: none;
+	color:#34393E;
+}
+
+#contenu
+{
+	margin-left: 245px;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 5px; 
+    height: 500px;
+}
+
+#about
+{
+    border: 2px solid black;
+    height: 300px;
+    padding: 5px;
+}
+
+#caroussel
+{
+    border: 2px solid black;
+    height: 300px;
+}
+
+#footer_top
+{
+    background: url(img/foot_top.png) repeat-x top;
+    height: 2px;
+}
+
+#footer 
+{
+    background : #272727;
+    background : -webkit-gradient(linear, left top, left bottom, from(#272727), to(#080808));
+    background : -moz-linear-gradient(top, #272727, #080808);  
+    background-repeat: repeat-y;
+    clear: both;
+    width: 100%;
+    behavior: url(design/css3pie/PIE.htc);
+}
+
+h1 
+{
+	font-style: normal;
+	font-weight: normal;
+}
