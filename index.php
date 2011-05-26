@@ -43,7 +43,8 @@
             <!-- Ici doit se trouver le contenu. -->
             <table id="accueil" width="100%">
                 <tr>
-                    <td width="40%" id="about">
+                    
+                    <td width="40%" id="about" style="vertical-align: top">
                         
                             <p>Qu'est ce que c'est qu'ExoProg ?</p>
                             <ul>
@@ -51,15 +52,31 @@
                                 <li>Vous pouvez devenir rédacteur d'exercice sur le site.</li>
                                 <li>Discutez des exercices dans les commentaires pour demander de l'aide ou les améliorer.</li>
                             </ul>
-                        
                     </td>  
                     
-                    <td width="55%" id="caroussel">
+                    <td width="3%"></td>
+                    
+                    <td width="57%" id="caroussel" style="vertical-align: top" colspan="3">
                             <p>Ici se se trouve un caroussel !</p>
                     </td>
-                </tr>    
+                    
+                </tr>
+                
+                <tr>
+                    <td colspan="5" id="derniers_exos">
+                        <h5>Derniers exos :</h5>
+                        <ul>
+                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                        </ul>
+                    </td>
+                </tr>
             </table>    
         </div> 
+        
         <div id="footer">
             <div id="footer_top"></div>
             <p style="color: White">Footer !</p>
