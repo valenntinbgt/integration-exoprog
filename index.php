@@ -74,6 +74,11 @@
                         </ul>
                     </td>
                 </tr>
+                
+                <!-- Reste à faire "dernières news" et "meilleurs exos" et "derniers commentaires" -->
+                <tr>
+                    <td id="derniers"></td>
+                </tr>
             </table>    
         </div> 
         
