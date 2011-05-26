@@ -77,7 +77,27 @@
                 
                 <!-- Reste à faire "dernières news" et "meilleurs exos" et "derniers commentaires" -->
                 <tr>
-                    <td id="derniers"></td>
+                    <td id="dernieres_news" width="45%">
+                        <h5>Les news :</h5>
+                        <ul>
+                            <li>Exoprog est de sortie !</li>
+                            <li>Exoprog est de sortie !</li>
+                            <li>Exoprog est de sortie !</li>
+                            <li>Exoprog est de sortie !</li>
+                            <li>Exoprog est de sortie !</li>
+                        </ul>
+                    </td>
+                    <td width="10%"></td>
+                    <td id="meilleurs_exos" width="45%" colspan="7">
+                        <h5>Les exos les plus vus :</h5>
+                        <ul>
+                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                        </ul>
+                    </td>
                 </tr>
             </table>    
         </div> 

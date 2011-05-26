@@ -194,6 +194,16 @@
     margin-top: 10px;
 }
 
+#dernieres_news
+{
+    border: 2px solid black;
+}
+
+#meilleurs_exos
+{
+    border: 2px solid black;
+}
+
 #footer_top
 {
     background: url(img/foot_top.png) repeat-x top;
@@ -214,4 +224,9 @@ h1
 {
 	font-style: normal;
 	font-weight: normal;
+}
+
+#footer p
+{
+    display: inline;
 }
