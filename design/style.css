@@ -175,17 +175,45 @@
     padding: 5px; 
 }
 
-#about
+.titre
 {
     border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    border-bottom-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    
+    border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom: 1px solid black;
+}
+
+.content
+{
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    height: 240px;
+}
+
+#about
+{
     height: 300px;
     padding: 5px;
+    float: left;
+    width: 40%;
+    margin-bottom: 10px;
+    border: 1px solid red;
 }
 
 #caroussel
 {
     border: 2px solid black;
     height: 300px;
+    float: right;
+    width: 57%; 
 }
 
 #derniers_exos
@@ -193,16 +221,22 @@
     border: 2px solid black;
     margin-top: 10px;
     width: 100%;
+    clear: both;
+    margin-bottom: 10px;
 }
 
 #dernieres_news
 {
     border: 2px solid black;
+    float: left;
+    width: 45%;
 }
 
 #meilleurs_exos
 {
     border: 2px solid black;
+    float: right;
+    width: 50%;
 }
 
 #footer_top

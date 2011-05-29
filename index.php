@@ -18,66 +18,57 @@
             
             <p>Bienvenue sur ExoProg, le site où vous trouverez nombre d'exercices de programmation.</p>
             <!-- Ici doit se trouver le contenu. -->
-            <table id="accueil" width="100%">
-                <tr>
                     
-                    <td width="40%" id="about" style="vertical-align: top">
-                        
-                            <p>Qu'est ce que c'est qu'ExoProg ?</p>
-                            <ul>
-                                <li>Venez lire des exercices dans votre langage de prédilection.</li>
-                                <li>Vous pouvez devenir rédacteur d'exercice sur le site.</li>
-                                <li>Discutez des exercices dans les commentaires pour demander de l'aide ou les améliorer.</li>
-                            </ul>
-                    </td>  
-                    
-                    <td width="3%"></td>
-                    
-                    <td width="57%" id="caroussel" style="vertical-align: top" colspan="3">
-                            <p>Ici se se trouve un caroussel !</p>
-                    </td>
-                    
-                </tr>
+            <div id="about">
+                <div class="titre">  
+                    <h4>Que propose ExoProg ?</h4>
+                </div>  
                 
-                <tr>
-                    <td colspan="5" id="derniers_exos">
-                        <h5>Derniers exos :</h5>
-                        <ul>
-                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
-                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
-                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
-                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
-                            <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
-                        </ul>
-                    </td>
-                </tr>
-                
-                <!-- Reste à faire "dernières news" et "meilleurs exos" et "derniers commentaires" -->
-                <tr>
+                <div class="content">
+                    <ul>
+                        <li>Venez lire des exercices dans votre langage de prédilection.</li>
+                        <li>Vous pouvez devenir rédacteur d'exercice sur le site.</li>
+                        <li>Discutez des exercices dans les commentaires pour demander de l'aide ou les améliorer.</li>
+                    </ul>   
+                </div>
+            </div>
                     
-                    <td id="dernieres_news" width="35%" style="vertical-align:top">
-                        <h5>Les news :</h5>
-                        <ul>
-                            <li>Exoprog est de sortie !</li>
-                            <li>Exoprog est de sortie !</li>
-                            <li>Exoprog est de sortie !</li>
-                            <li>Exoprog est de sortie !</li>
-                            <li>Exoprog est de sortie !</li>
-                        </ul>
-                    </td>
-                    <td width="10%"></td>
-                    <td id="meilleurs_exos" width="35%" style="vertical-align:top">
-                        <h5>Les exos les plus vus :</h5>
-                        <ul>
-                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
-                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
-                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
-                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
-                            <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>    
+            <div id="caroussel">
+                <p>Ici se se trouve un caroussel !</p>
+            </div>
+            
+            <div id="derniers_exos">
+                <h5>Derniers exos :</h5>
+                <ul>
+                    <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                    <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                    <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                    <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                    <li>Créer une page en HTML avec zenCoding. [Dans HTML/CSS par adilefebvre69]</li>
+                </ul>
+            </div>
+                    
+            <div id="dernieres_news">
+                <h5>Les news :</h5>
+                <ul>
+                    <li>Exoprog est de sortie !</li>
+                    <li>Exoprog est de sortie !</li>
+                    <li>Exoprog est de sortie !</li>
+                    <li>Exoprog est de sortie !</li>
+                    <li>Exoprog est de sortie !</li>
+                </ul>
+            </div>
+            
+            <div id="meilleurs_exos">
+                <h5>Les exos les plus vus :</h5>
+                <ul>
+                    <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                    <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                    <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                    <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                    <li>HTML5 : Votre première page avec &lt;canvas&gt; ! [Dans PHP/MySQL par Spoodx]</li>
+                </ul>
+            </div>  
         </div> 
         
 <?php include('includes/footer.php');?>
