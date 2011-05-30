@@ -252,7 +252,7 @@
     background : -moz-linear-gradient(top, #272727, #080808);  
     background-repeat: repeat-y;
     width: 100%;
-    margin-top: 25px;
+    clear: both;
 }
 
 h1 
